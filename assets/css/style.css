@@ -710,14 +710,28 @@ textarea.contact-input {
 /**
  * responsive for larger than 600px screen
  */
-
-@media (min-width: 600px) {
+ @media (min-width: 600px) {
+  .portfolio-list li:nth-child(even) .card-content { margin-inline-start: 60%; }
 
   /**
    * PORTFOLIO
    */
 
-  .portfolio-list li:nth-child(even) .card-content { margin-inline-start: 50%; }
+
+}
+
+@media (max-width: 768px) {
+
+  /**
+   * PORTFOLIO
+   */
+
+
+  .socialmedia{
+display: flex;
+padding:0 50%;
+justify-content: center;
+  }
 
 }
 
